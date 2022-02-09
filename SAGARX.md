@@ -1,0 +1,5 @@
+gg.setRanges(gg.REGION_CODE_APP | gg.REGION_CODE_SYS)
+gg.searchNumber("h746572736166", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("h706572736166", gg.TYPE_BYTE)
+gg.clearResults()
